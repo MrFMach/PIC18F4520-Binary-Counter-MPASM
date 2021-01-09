@@ -1,0 +1,51 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Sat Jan 09 15:59:51 2021
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                 RES_VECT       code   0x000000    program   0x000004
+                   .cinit    romdata   0x000004    program   0x000002
+                MAIN_PROG       code   0x000006    program   0x000060
+.config_300001_BUILD/DEFAULT/PRODUCTION/MAIN.O    romdata   0x300001    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000065      
+                            0x300001    0x300001      
+            103 out of 33048 program addresses used, program memory utilization is 0%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+               CRES_COUNT   0x00004a    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                CRES_TEST   0x000036    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+               DECR_COUNT   0x000058    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                DECR_TEST   0x000040    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                    DELAY   0x000006    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                    DELAY   0x000006    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                     LOOP   0x000012    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                     MAIN   0x000036    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                    START   0x000028    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                    DELAY   0x000006    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                    DELAY   0x000006    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                     LOOP   0x000012    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                    START   0x000028    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                CRES_TEST   0x000036    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                     MAIN   0x000036    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+                DECR_TEST   0x000040    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+               CRES_COUNT   0x00004a    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+               DECR_COUNT   0x000058    program     static C:\Users\mrfma\OneDrive\Desktop\MPLABXProjects\4-15\PIC18F4520-Cres-Decr-Counter-MPASM.X\main.asm
+
+
